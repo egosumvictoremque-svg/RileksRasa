@@ -1,1 +1,210 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rileks Rasa - Cabang Bintaro | Jeda Sejenak untuk Cerita yang Lebih Bermakna</title>
+    <!-- SEO Optimization -->
+    <meta name="description" content="Rileks Rasa Cabang Bintaro - Tempat nongkrong asri dan terjangkau. Kopi susu creamy & cemilan mulai Rp 10.000.">
+    <meta name="keywords" content="Cafe Bintaro, Kopi Murah Bintaro, Rileks Rasa, Nongkrong Bintaro">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+        .hero-gradient {
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1554118811-1e0d58224f24?q=80&w=2047&auto=format&fit=crop');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="bg-[#F9F7F2] text-[#3E362E]">
 
+    <!-- Navigasi -->
+    <nav class="fixed w-full z-50 bg-white/80 backdrop-blur-md border-b border-stone-200">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <img src="image_d345e8.png" alt="Logo Rileks Rasa" class="w-12 h-12 rounded-lg shadow-sm object-contain bg-black">
+                <span class="font-bold text-xl tracking-tight uppercase">Rileks Rasa</span>
+            </div>
+            <div class="hidden md:flex gap-8 font-medium text-sm uppercase tracking-widest text-stone-500">
+                <a href="#tentang" class="hover:text-[#A79277] transition">Tentang</a>
+                <a href="#pesan" class="hover:text-[#A79277] transition font-bold text-[#5F6F52]">Pesan Antar</a>
+                <a href="#menu" class="hover:text-[#A79277] transition">Menu</a>
+                <a href="#lokasi" class="bg-[#3E362E] text-white px-6 py-2 rounded-full hover:bg-black transition">Lokasi</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-gradient h-screen flex items-center justify-center text-center text-white px-6 relative">
+        <div class="max-w-4xl">
+            <p class="uppercase tracking-[0.4em] text-xs md:text-sm mb-6 font-semibold text-stone-300">Cabang Bintaro</p>
+            <h1 class="text-5xl md:text-8xl font-bold mb-8 leading-tight">Jeda Sejenak untuk Cerita yang Lebih Bermakna</h1>
+            
+            <div class="inline-block bg-orange-600/90 backdrop-blur-sm text-white px-6 py-2 rounded-lg mb-10 animate-pulse">
+                🎁 PROMO: GRATIS 1 Cemilan untuk Kunjungan Pertama!
+            </div>
+
+            <div class="flex flex-col md:flex-row gap-4 justify-center">
+                <a href="#menu" class="bg-[#A79277] hover:bg-[#D1BB9E] text-white px-10 py-5 rounded-full font-bold transition-all shadow-xl text-lg">Cek Menu</a>
+                <a href="#pesan" class="bg-white text-[#3E362E] hover:bg-stone-100 px-10 py-5 rounded-full font-bold transition-all text-lg">Pesan Sekarang</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 1: Pesan Antar (NEW) -->
+    <section id="pesan" class="py-20 bg-[#5F6F52] text-white px-6 text-center">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl font-bold mb-4 uppercase tracking-widest">Layanan Pesan Antar</h2>
+            <p class="mb-12 text-stone-200">Nikmati Rileks Rasa langsung di tempatmu melalui platform favoritmu.</p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Go-Food -->
+                <a href="#" class="bg-white p-6 rounded-3xl hover:-translate-y-2 transition-transform shadow-lg group text-center">
+                    <div class="h-10 flex items-center justify-center mb-4 text-red-600 font-extrabold text-4xl tracking-tighter italic">gofood</div>
+                    <span class="text-[#3E362E] font-bold block group-hover:text-red-600 transition tracking-wider">GO-FOOD</span>
+                </a>
+                <!-- Shopee Food -->
+                <a href="#" class="bg-white p-6 rounded-3xl hover:-translate-y-2 transition-transform shadow-lg group text-center">
+                    <div class="h-10 flex items-center justify-center mb-4 text-orange-500 font-extrabold text-2xl italic">
+                        <span class="bg-orange-500 text-white px-2 py-1 rounded-md mr-1 font-sans not-italic">S</span>ShopeeFood
+                    </div>
+                    <span class="text-[#3E362E] font-bold block group-hover:text-orange-600 transition tracking-wider">SHOPEE FOOD</span>
+                </a>
+                <!-- Direct WA -->
+                <a href="https://wa.me/6282310941608?text=Halo%20Rileks%20Rasa%20Bintaro,%20saya%20mau%20pesan%20antar%20langsung." class="bg-white p-6 rounded-3xl hover:-translate-y-2 transition-transform shadow-lg group border-4 border-green-500">
+                    <svg class="w-10 h-10 mx-auto mb-4 text-green-500" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.588-5.946 0-6.556 5.332-11.891 11.893-11.891 3.181 0 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.481 8.403 0 6.556-5.332 11.891-11.893 11.891-2.01 0-3.987-.512-5.744-1.483l-6.249 1.642zm6.208-4.041c1.554.921 3.031 1.411 4.636 1.411 5.234 0 9.491-4.258 9.491-9.492 0-2.541-1.002-4.925-2.821-6.742-1.819-1.817-4.205-2.817-6.736-2.817-5.234 0-9.491 4.259-9.491 9.492 0 1.706.467 3.31 1.353 4.673l-.895 3.268 3.364-.893z"/></svg>
+                    <span class="text-[#3E362E] font-bold block group-hover:text-green-600 transition tracking-wider uppercase">Pesan Langsung (WA)</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2: Tentang Bintaro -->
+    <section id="tentang" class="py-24 px-6 max-w-6xl mx-auto">
+        <div class="grid md:grid-cols-2 gap-16 items-center">
+            <div class="relative">
+                <div class="grid grid-cols-2 gap-4">
+                    <img src="https://images.unsplash.com/photo-1525610553991-2bede1a236e2?q=80&w=1000&auto=format&fit=crop" class="rounded-2xl shadow-xl mt-8 object-cover w-full h-64" alt="Outdoor Bintaro">
+                    <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=1000&auto=format&fit=crop" class="rounded-2xl shadow-xl object-cover w-full h-64" alt="Kopi Bintaro">
+                </div>
+                <div class="absolute -bottom-6 -right-6 bg-[#3E362E] text-white p-8 rounded-3xl shadow-2xl transform rotate-3 hidden md:block">
+                    <p class="text-xs uppercase tracking-widest text-stone-400 mb-1">Menu @RileksRasa</p>
+                    <p class="text-3xl font-bold">Mulai Rp 10rb</p>
+                </div>
+            </div>
+            <div>
+                <h2 class="text-4xl font-bold mb-8 text-[#5F6F52]">Ketenangan Baru di Bintaro</h2>
+                <p class="text-lg leading-relaxed text-stone-600 mb-8">
+                    Menghadirkan kenyamanan khas **Rileks Rasa** ke area Bintaro. Kami menggabungkan suasana *outdoor* yang teduh dengan menu berkualitas bintang lima namun tetap ramah di dompet.
+                </p>
+                <div class="space-y-6">
+                    <div class="flex gap-4 p-6 bg-white rounded-2xl border border-stone-100 shadow-sm">
+                        <div class="w-12 h-12 shrink-0 bg-[#D1BB9E] rounded-full flex items-center justify-center text-[#3E362E] font-bold">R</div>
+                        <div>
+                            <h4 class="font-bold text-xl tracking-tight">Rileks di Bintaro</h4>
+                            <p class="text-stone-500">Tempat paling pas buat jeda sejenak dari hiruk pikuk kota.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: Menu -->
+    <section id="menu" class="py-24 bg-white px-6">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-4">Menu Pilihan</h2>
+                <p class="text-stone-500">Kualitas terbaik mulai dari Rp 10.000 saja.</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8 text-center">
+                <div class="p-8 bg-[#F9F7F2] rounded-3xl border border-stone-100">
+                    <img src="https://images.unsplash.com/photo-1541167760496-1628856ab772?q=80&w=600&auto=format&fit=crop" class="w-24 h-24 rounded-full mx-auto mb-6 object-cover shadow-lg" alt="Kopi Susu">
+                    <h4 class="font-bold text-xl mb-2">KOPI SUSU RILEKS</h4>
+                    <p class="text-stone-500 font-bold">Rp 18.000</p>
+                </div>
+                <div class="p-8 bg-[#F9F7F2] rounded-3xl border border-stone-100">
+                    <img src="https://images.unsplash.com/photo-1513456852971-30c0b8199d4d?q=80&w=600&auto=format&fit=crop" class="w-24 h-24 rounded-full mx-auto mb-6 object-cover shadow-lg" alt="Cemilan">
+                    <h4 class="font-bold text-xl mb-2">CEMILAN SANTAI</h4>
+                    <p class="text-stone-500 font-bold">Mulai Rp 10.000</p>
+                </div>
+                <div class="p-8 bg-[#F9F7F2] rounded-3xl border border-stone-100">
+                    <img src="https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?q=80&w=600&auto=format&fit=crop" class="w-24 h-24 rounded-full mx-auto mb-6 object-cover shadow-lg" alt="Minuman">
+                    <h4 class="font-bold text-xl mb-2">MINUMAN SEGAR</h4>
+                    <p class="text-stone-500 font-bold">Rp 15.000</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: Instagram & Lokasi -->
+    <section id="ulasan" class="py-24 px-6 bg-[#F1EDE4]">
+        <div class="max-w-6xl mx-auto text-center">
+            <h3 class="text-2xl font-bold mb-8 uppercase tracking-widest">Ikuti Cerita Kami</h3>
+            <a href="https://instagram.com/rileks.rasa" target="_blank" class="inline-flex items-center gap-4 text-[#3E362E] hover:text-orange-600 font-bold text-3xl transition duration-300">
+                <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                @rileks.rasa
+            </a>
+        </div>
+    </section>
+
+    <!-- Section 5: Lokasi -->
+    <section id="lokasi" class="py-24 px-6 bg-[#3E362E]">
+        <div class="max-w-6xl mx-auto bg-[#F9F7F2] rounded-[4rem] overflow-hidden shadow-2xl grid md:grid-cols-2">
+            <div class="p-12 md:p-20">
+                <h2 class="text-4xl font-bold mb-10">Titik Rileks Bintaro</h2>
+                <div class="space-y-10">
+                    <div>
+                        <h4 class="uppercase tracking-[0.3em] text-[10px] font-bold text-stone-400 mb-3">Cabang Bintaro</h4>
+                        <p class="text-xl font-semibold">Kunjungi kami di jantung Bintaro untuk suasana outdoor terbaik.</p>
+                    </div>
+                    <div>
+                        <h4 class="uppercase tracking-[0.3em] text-[10px] font-bold text-stone-400 mb-3">Status Kedai</h4>
+                        <div id="status-buka" class="inline-flex items-center gap-2 px-5 py-2 rounded-full text-xs font-bold uppercase tracking-widest">
+                            <span id="status-text">Mengecek...</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-stone-200 relative min-h-[400px]">
+                <!-- Actual Google Maps Embed Link untuk Bintaro -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.058356980482!2d106.7239451147693!3d-6.255959695471649!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sBintaro!5e0!3m2!1sid!2sid!4v1610000000000!5m2!1sid!2sid" 
+                class="absolute inset-0 w-full h-full border-0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-16 px-6 text-center border-t border-stone-200">
+        <p class="font-bold text-2xl mb-4 tracking-[0.5em] uppercase">Rileks Rasa</p>
+        <p class="text-stone-400 text-sm max-w-sm mx-auto leading-relaxed italic uppercase tracking-widest">Jeda Sejenak, Rasa Tak Pernah Bohong</p>
+    </footer>
+
+    <!-- WhatsApp Floating -->
+    <a href="https://wa.me/6282310941608?text=Halo%20Rileks%20Rasa%20Bintaro,%20saya%20mau%20pesan%20menu%20hari%20ini." target="_blank" class="fixed bottom-10 right-10 z-50">
+        <div class="bg-[#25D366] text-white p-5 rounded-full shadow-2xl hover:scale-110 transition duration-300">
+            <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.588-5.946 0-6.556 5.332-11.891 11.893-11.891 3.181 0 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.481 8.403 0 6.556-5.332 11.891-11.893 11.891-2.01 0-3.987-.512-5.744-1.483l-6.249 1.642zm6.208-4.041c1.554.921 3.031 1.411 4.636 1.411 5.234 0 9.491-4.258 9.491-9.492 0-2.541-1.002-4.925-2.821-6.742-1.819-1.817-4.205-2.817-6.736-2.817-5.234 0-9.491 4.259-9.491 9.492 0 1.706.467 3.31 1.353 4.673l-.895 3.268 3.364-.893z"/></svg>
+        </div>
+    </a>
+
+    <script>
+        function updateStatus() {
+            const statusBox = document.getElementById('status-buka');
+            const statusText = document.getElementById('status-text');
+            const now = new Date();
+            const hour = now.getHours();
+            
+            if (hour >= 14 && hour < 22) {
+                statusText.innerText = 'BUKA SEKARANG — Mari Mampir';
+                statusBox.classList.add('bg-green-100', 'text-green-700');
+            } else {
+                statusText.innerText = 'TUTUP — Buka Jam 14.00';
+                statusBox.classList.add('bg-orange-100', 'text-orange-700');
+            }
+        }
+        window.onload = updateStatus;
+    </script>
+</body>
+</html>
